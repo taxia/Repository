@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Paint</title>
+	<link rel="stylesheet" type="text/css" href="css/Palette.css ">
+	<script type="text/javascript" src='js/Palette.js'></script>
+	<script type="text/javascript" src='js/paint.js'></script>
+</head>
+<body>
+	<main>
+		<div class="top">
+		<div></div>
+			<a href="" class="iconfont" id='save'>&#xe699;</a>
+			<a href="javasript:void(0)" class="iconfont" id='inverse'>&#xe60b;</a>
+		</div>
+		<div class="left" style="-webkit-user-select: none;">
+			<label class="iconfont tools" active id='line'>&#xe654;</label>
+			<label class="iconfont tools" active id='pencil'>&#xe617;</label>
+			<label class="iconfont tools" active id='dash'>&#xe672;</label>
+			<label class="iconfont tools" active id='circle'>&#xe646;</label>
+			<label class="iconfont tools" active id='matrix'>&#xe633;</label>
+			<label class="iconfont tools" active id='anger'>&#xe63b;</label>
+			<label class="iconfont tools" active id='side'>&#xe7d1;</label>
+			<div class="cut"></div>
+			<label class="iconfont style" actives id='stroke'>&#xe795;</label>
+			<label class="iconfont style" actives id='fill'>&#xe680;</label>
+			<label><input type="color" id='strokeStyle'></label>
+			<label><input type="color" id='fillStyle'></label>
+			<label class="iconfont box" active>&#xe67f;</label>
+			<label class="iconfont pen" active>&#xe62f;</label>
+			<label class="iconfont cutting" active>&#xe658;</label>
+		</div>
+		<div class="right">
+			<canvas width="880" height="540"></canvas>
+			<div class="eraser"></div>
+			<div class="clip"></div>
+			<div class="mask"></div>
+		</div>
+	</main>
+</body>
+</html>
