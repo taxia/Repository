@@ -1,0 +1,175 @@
+/*
+* @Author: Kuze
+* @Date:   2017-08-17 14:59:12
+* @Last Modified by:   Kuze
+* @Last Modified time: 2017-08-21 09:37:30
+*/
+main{
+	width: 100%;
+	height: auto;
+}
+.box{
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d0d0d0;
+}
+.box h2{
+	line-height: 120px;
+	color: #484848;
+}
+.box ul{
+	width: 1200px;
+	height: 780px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.box ul li{
+	width: 400px;
+	height: 390px;
+	text-align: center;
+}
+.box ul li a{
+	width: 380px;
+	height: 280px;
+	display: block;
+	margin: 0 auto;
+	transition: all 0.2s;
+}
+.box ul li a:hover{
+	transform: scale(1.1,1.1);
+}
+.box ul li a img{
+	width: 380px;
+	height: 280px;
+	display: block;
+}
+.box ul li span{
+	display: block;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	color: #484848;
+}
+.box ul li span:nth-of-type(1){
+	margin-top: 20px;
+}
+.box ul li span:nth-of-type(2){
+	margin-top: 10px;
+	font-weight: bold;
+	color: #ff6900;
+}
+.boxT{
+	width: 1200px;
+	height: 440px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d0d0d0;
+	position: relative;
+}
+.boxT h2{
+	line-height: 100px;
+	color: #484848;
+}
+.boxT>a{
+	position: absolute;
+	top: 44px;
+	right: 0px;
+	font-size: 16px;
+	color: #484848;
+}
+.boxT>a:hover{
+	color: #ff6900;
+}
+.boxT ul{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	justify-content: space-around;
+}
+.boxT ul li{
+	width: 220px;
+	height: 340px;
+	box-sizing: border-box;
+}
+.boxT ul li a{
+	width: 220px;
+	height: 260px;
+	display: block;
+	transition: all 0.2s;
+}
+.boxT ul li a:hover{
+	transform: translateY(-2px);
+	box-shadow: 2px 6px 12px rgba(0,0,0,0.1);
+}
+.boxT ul li a img{
+	width: 220px;
+	height: 260px;
+	display: block;
+}
+.boxT ul li span{
+	margin-top: 20px;
+	display: block;
+	font-size: 16px;
+	font-family: '微软雅黑';
+}
+.boxD{
+	width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d0d0d0;
+}
+.boxD h2{
+	line-height: 100px;
+	color: #484848;
+}
+.boxD ul{
+	width: 100%;
+	height: 900px;
+}
+.boxD ul li{
+	width: 100%;
+	height: 280px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.boxD ul li a{
+	width: 60%;
+	height: 100%;
+	display: block;
+	background: url(../img/img12.jpg) center center;
+	float: left;
+}
+.boxD ul li:nth-of-type(2) a{
+	background: url(../img/img13.jpg) center center;
+}
+.boxD ul li:nth-of-type(3) a{
+	background: url(../img/img14.jpg) left center;
+}
+.boxD ul li a img{
+	width: 100%;
+	height: 100%;
+	background-size: auto;
+}
+.boxD ul li h3{
+	position: absolute;
+	top: 10%;
+	left: 65%;
+}
+.boxD ul li div{
+	width: 40%;
+	height: 100%;
+	float: right;
+	box-sizing: border-box;
+	border: 1px solid #e0e0e0;
+}
+.boxD ul li div span{
+	display: block;
+	width: 80%;
+	height: 50%;
+	margin: 15% 0 0 12%;
+}

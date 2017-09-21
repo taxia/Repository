@@ -1,0 +1,176 @@
+/*
+* @Author: Kuze
+* @Date:   2017-08-13 14:59:12
+* @Last Modified by:   Kuze
+* @Last Modified time: 2017-09-12 11:17:52
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 390584 */
+  src: url('http://at.alicdn.com/t/font_390584_44nq71507xu07ldi.eot');
+  src: url('http://at.alicdn.com/t/font_390584_44nq71507xu07ldi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_390584_44nq71507xu07ldi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_390584_44nq71507xu07ldi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_390584_44nq71507xu07ldi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+body{
+	background: rgba(241,241,241,0.3);
+}
+header{
+	width: 100%;
+	height: 650px;
+	position: relative;
+	overflow: hidden;
+}
+.banner{
+	width: 100%;
+	height: 100%;
+}
+.banner li{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner li:nth-of-type(1){
+	display: block;
+}
+.banner img{
+	width: 100%;
+	height: 650px;
+}
+.head{
+	width: 1200px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+.head h1{
+	font-size: 52px;
+	float: left;
+}
+.head h1 a{
+	color: #fff;
+}
+.head ul{
+	width: 500px;
+	height: 40px;
+	padding: 10px 0px;
+	float: right;
+	display: flex;
+	justify-content: space-between;
+}
+.head ul li{
+	font-size: 16px;
+	font-family: '微软雅黑';
+	line-height: 40px;
+}
+.head ul li:hover a{
+	color: #ff9700;
+	border-bottom: 3px solid #ff9700;
+}
+.head ul li a{
+	display: block;
+	color: #fff;
+}
+header span{
+	position: absolute;
+	bottom: 100px;
+	left: 910px;
+	color: #fff;
+	cursor: default;
+	display: none;
+}
+header span:nth-of-type(1){
+	display: block;
+}
+header:hover button{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 20px;
+	width: 50px;
+	height: 70px;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	font-size: 30px;
+	border: none;
+	outline: none;
+}
+header button:nth-of-type(2){
+	right: 0;
+	margin-right: 20px;
+}
+header button:hover{
+	background: rgba(0,0,0,0.7);
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	height: 340px;
+	background: #06060b;
+}
+.backTop{
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 70px;
+	right: 30px;
+	background: #6c6c6c;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+	display: none;
+}
+.foot{
+	width: 1200px;
+	padding-top: 50px;
+	height: 250px;
+	margin: 0 auto;
+	display: flex;
+	color: #60606d;
+}
+.foot ul{
+	width: 25%;
+	height: 80%;
+	padding: 0 40px;
+}
+.foot ul li{
+	font-size: 14px;
+	line-height: 22px;
+	padding-top: 8px;
+}
+.foot ul li a{
+	color: #60606d;
+}
+.foot ul li a:hover{
+	color: #f9f9f9;
+}
+footer pre{
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #60606d;
+}
+footer pre a{
+	color: #60606d;
+}
