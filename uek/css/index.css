@@ -1,0 +1,281 @@
+/*
+* @Author: Kuze
+* @Date:   2017-07-20 11:17:37
+* @Last Modified by:   Kuze
+* @Last Modified time: 2017-07-20 19:24:15
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+:root{
+	background: #f5f6fa;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.logo{
+	width: 0.72rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	display: block;
+	background: url('../img/logo.png')  no-repeat;
+	background-size: 0.72rem 0.67rem;
+	float: left;
+}
+.title{
+	font-size: .34rem;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0.30rem;
+	margin-left: 0.16rem;
+	float: left;
+}
+#head{
+	width: 100%;
+	height: 0.92rem;	
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	display: block;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+	display: block;
+}
+nav{
+	width: 100%;
+	height: 4.81rem;
+	background: #f4f5f9;
+	overflow: hidden;
+}
+nav ul{
+	width: 7.4rem;
+	height: 4.5rem;
+	margin: 0.29rem 0.05rem 0.2rem;
+}
+
+nav li{
+	width: 25%;
+	height: 50%;
+	float: left;
+}
+nav li a{
+	width: 1.55rem;
+	height: 1.55rem;
+	margin: 0rem 0.15rem;
+	display: block;
+}
+nav li a img{
+	width: 1.55rem;
+	height: 1.55rem;
+}
+nav li>div{
+	width: 1.55rem;
+	height: 0.33rem;
+	margin: 0 auto;
+	margin-top: 0.17rem;
+	font-size: 0.16rem;
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+}
+main{
+	width: 100%;
+	height: 4.22rem;
+	background: #fff;
+}
+.main-top{
+	width: 100%;
+	height: 0.64rem;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #e8e8e8;
+	text-align: center;
+	line-height: 0.64rem;
+	font-size: 0.16rem;
+	font-weight: bold;
+	color: #0377bc
+}
+.main-middle{
+	width: 100%;
+	height: 2.19rem;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.main-middle li{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0.38rem 0rem 0.48rem 0.16rem;
+	border-right: 0.01rem solid #e8e8e8;
+	float: left;
+}
+.main-middle li:nth-of-type(2){
+	border-right: none;
+}
+.main-middle li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.main-middle li .wenzi{
+	font-size: 0.18rem;
+	float: left;
+	margin-right: 0.42rem;
+}
+.main-middle li:nth-of-type(2) .wenzi{
+	margin-right: 0.21rem;
+}
+.wenzi .diyihang{
+	color: #000;
+	display: block;
+}
+.wenzi .dierhang{
+	font-size: 0.16rem;
+	color: #a1a1a1;
+	display: block;
+}
+.tupian1{
+	width: 1.32rem;
+    height: 100%;
+    float: left;
+/*     background: url("../img/jingling.png") no-repeat;
+    background-position: -3px -441px; */
+}
+.tupian2{
+	width: 1.49rem;
+    height: 100%;
+    float: left;
+/*     background: url("../img/jingling.png") no-repeat;
+    background-position: -3px -441px; */
+}
+.tupian1 img,.tupian2 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.main-bottom{
+	width: 100%;
+	height: 1.39rem;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.main-bottom li{
+	width: 33.3%;
+	height: 100%;
+	box-sizing: border-box;
+	border-right: 0.01rem solid #e8e8e8;
+	padding: 0.4rem 0 0.38rem 0.2rem;
+	float: left;
+}
+.main-bottom li:nth-of-type(3){
+	border-right: none;
+}
+.main-bottom a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.main-bottom .tupian{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+	margin-right: 0.12rem
+}
+.tupian img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.main-bottom .wenzi{
+	width: 1.5rem;
+	height: 100%;
+    float: left;
+    font-size: 0.18rem;  
+}
+#foot{
+	width: 100%;
+	height: 0.8rem;
+}
+footer{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.chaxun{
+	width: 34.3%;
+	height: 100%;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+.boda{
+	width: 31.4%;
+	height: 100%;
+	float: left;
+	display: block;
+	background: #ff7e00;
+	overflow: hidden;
+	border-radius: 0.08rem;
+	box-shadow: 0rem 0.01rem 0.2rem 0.01rem rgba(255, 126, 0, 1)
+}
+.goutong{
+	width: 34.3%;
+	height: 100%;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+.chaxun div{
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+}
+.boda div{
+	margin-top: 0.24rem;
+	margin-left: 0.4rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+}
+.goutong div{
+	margin-top: 0.24rem;
+	margin-left: 0.84rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+}
+footer img{
+	width: 0.32rem;
+	height: 0.32rem;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 0.14rem;
+	float: left;
+}
+footer span{
+	font-size: 0.24rem;
+	float: left;
+	color: #000;
+}
+.boda span{
+	color: #fff;
+}

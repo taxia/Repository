@@ -1,0 +1,200 @@
+/*
+* @Author: asus
+* @Date:   2017-07-20 18:07:07
+* @Last Modified by:   Kuze
+* @Last Modified time: 2017-07-21 08:55:53
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+:root{
+	background: #f5f6fa;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.logo{
+	width: 0.72rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	display: block;
+	background: url('../img/logo.png')  no-repeat;
+	background-size: 0.72rem 0.67rem;
+	float: left;
+}
+.title{
+	font-size: .34rem;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0.30rem;
+	margin-left: 0.16rem;
+	float: left;
+}
+#head{
+	width: 100%;
+	height: 0.92rem;	
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	display: block;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+	display: block;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	font-size: 0.24rem;
+	line-height: 0.82rem;
+	color: #000;
+}
+.shouye a{
+	color: #000;
+	padding-left: 0.24rem;
+}
+.shouye a:nth-of-type(2){
+	color: #000;
+	padding-left: 0rem;
+}
+main{
+	margin-left: 0.24rem;
+	width: 7.02rem;
+	height:16.37rem;
+	overflow: hidden;
+}
+.gaishu{
+	width: 100%;
+	height: 7.25rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.sekuai{
+	margin-top: 0.32rem;
+	margin-left: 0.19rem;
+	margin-right: 0.2rem;
+	width: .04rem;
+	height: .2rem;
+	background: #01b5ff;
+	float: left;
+
+}
+.hanzi{
+	margin-top: 0.21rem;
+	font-size: 0.24rem;
+	float: left;
+}
+.xiahuaxian{
+	width: 6.4rem;
+	height: 0rem;
+	position: absolute;
+	left: 0.42rem;
+	top: 0.67rem;
+	border-bottom: 1px dashed #999999;
+}
+p{
+	width: 6.4rem;
+	font-size: 0.22rem;
+	color: #666666;
+	position: absolute;
+	left: 0.42rem;
+	top: 0.85rem;
+}
+.dierduan{
+	width: 6.4rem;
+	font-size: 0.22rem;
+	color: #666666;
+	position: absolute;
+	left: 0.42rem;
+	top: 4.48rem;
+}
+.qiyewenhua{
+	width: 100%;
+	height: 2.74rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.qiyewenhua a:nth-of-type(1){
+	width: 1.33rem;
+	height: 1.33rem;
+	position: absolute;
+	left: 0.83rem;
+	top: 1.04rem;
+}
+.qiyewenhua a:nth-of-type(2){
+	width: 1.33rem;
+	height: 1.33rem;
+	position: absolute;
+	top: 1.04rem;
+	left: 2.88rem;
+}
+.qiyewenhua a:nth-of-type(3){
+	width: 1.33rem;
+	height: 1.33rem;
+	position: absolute;
+	top: 1.04rem;
+	left: 4.93rem;
+}
+.qiyewenhua a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.gongsilinian{
+	width: 100%;
+	height: 1.32rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.gongsiyuanjing{
+	width: 100%;
+	height: 1.32rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.mashangbaoming{
+	display: block;
+	width: 1.68rem;
+	height: 1.68rem;
+	background: blue;
+	margin-top: 0.34rem;
+	margin-left: 2.9rem;
+}
+.mashangbaoming img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+footer{
+	width: 100%;
+	height: 0.92rem;
+	font-size: .22rem;
+	text-align: center;
+	line-height: 0.40rem;
+	overflow: hidden;
+}
+footer span{
+	margin-top: 0.06rem;
+	display: block;
+	color:#666666;
+}
